@@ -17,8 +17,8 @@ function App() {
       </div>
 
       <div className="colorChangeTagDiv">
-        <label>Change color</label>
-        <input type="color" value={color} onChange={changeColor} />
+        <label htmlFor="colorInput">Click to change color</label>
+        <input id="colorInput" type="color" value={color} onChange={changeColor} />
       </div>
     </>
   );
