@@ -1,0 +1,38 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.colorsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.colors{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.colorChangeTagDiv{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.colorChangeTagDiv input{
+    border: none;
+}
